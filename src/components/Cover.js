@@ -9,8 +9,8 @@ const Cover = () => {
           <h1 className="cover_mainTitle">María Serna Zafra</h1>
           <h2 className="cover_title">Frontend Developer</h2>
         </div>
+        <Nav></Nav>
       </section>
-      <Nav />
     </>
   );
 };
