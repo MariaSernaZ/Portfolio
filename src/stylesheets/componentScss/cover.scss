@@ -1,13 +1,14 @@
 .coverContainer{
-    padding: 160px 120px 0px 120px;
+    padding: 250px 120px 0px 120px;
 }
 
 .cover_mainTitle{
-    color: rgba(3, 34, 23, 0.828);
+    color:var(--color-h1);
+    font-size: 60px;
 }
 
 .cover_title{
-    color: rgba(3, 34, 23, 0.589);
+    color: #557370be;
 }
 
 .cover {

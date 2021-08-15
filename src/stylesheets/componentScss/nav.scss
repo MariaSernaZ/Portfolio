@@ -1,8 +1,26 @@
 .nav{
-    color: rgba(1, 16, 29, 0.644);
-    padding: 30px 120px 120px 120px;
+    background-color: #86a694ad;
+    color: rgb(244, 248, 247);
+    box-shadow: 5px 0px 8px -3px rgba(2, 17, 12, 0.801);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.navList{
+    display: flex;
+    justify-content:space-around;
+    cursor: pointer;
 }
 
 .navItem{
     padding-bottom: 5px;
+    font-weight: bold;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+.navItem:hover {
+    color:rgba(2, 17, 12, 0.801);
+    transform: scale(1.3);
 }
