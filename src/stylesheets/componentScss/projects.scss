@@ -1,4 +1,16 @@
 .projects_mainTitle{
-    color:rgba(3, 34, 23, 0.828);
+    color:var(--colorMain-h2);
     text-align: center;
+    word-spacing: 10px;
+}
+
+.projects {
+    background-image: url("../../images/wood2.jpg");
+    width: 100%;
+    min-width: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    min-height: 100vh;
 }

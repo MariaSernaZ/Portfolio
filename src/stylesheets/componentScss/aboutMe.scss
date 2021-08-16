@@ -1,5 +1,5 @@
 .about_mainTitle{
-    color:rgba(3, 34, 23, 0.828);
+    color:var(--colorMain-h2);
     text-align: center;
     padding-top: 25px;
 }
@@ -12,4 +12,31 @@
 .tech_title{
     text-align: center;
     padding: 25px;
+    color:var(--colorMain-h3);
+}
+
+.about_list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-left: 100px;
+    padding-right: 60px;
+}
+
+.about_item{
+    background-color:var(--colorAbout-tech);
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius:20px;
+    width:100px;
+    height: 100px;
+}
+
+.about_icon{
+    width:50px;
 }

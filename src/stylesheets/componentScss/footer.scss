@@ -1,42 +1,33 @@
 .footerCover {
-    background-image: url("../../images/footer1.jpg");
+    background-image: url("../../images/bike.jpg");
     background-repeat: no-repeat;
     background-size:50vw;
     background-position: left;
     height: auto;
     min-height: 100vh;
     min-width: 50px;
-    color: white;
-    border-radius: 90%;
+    border-radius: 50%;
 }
 
 .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .footer_text{
-    color:white;
-    font-size: 80px;
-    margin: auto;
-    padding-left: 120px;
-}
-
-.footer_rrss {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:right;
-    width: 100%;
+    color:#25478b;
+    font-size: 70px;
+    font-weight: bold;
 }
 
 .rrss_list{
     list-style: none;
-    display: flex;
-    justify-content:flex-end;
+    align-items: center;
     width: 100%;
-  }
+}
+
 
 .footerList_item{
     padding: 35px 95px 35px 15px;
@@ -44,7 +35,7 @@
 
 .rrss_link{
     text-decoration: none;
-    color: rgba(12, 65, 47, 0.774);
+    color: var(--color-rrss);
 }
 
 .icon{
