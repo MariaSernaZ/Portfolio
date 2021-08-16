@@ -1,0 +1,94 @@
+[
+    {
+    "id": 1,
+    "title": "Undefined: Stop hiding",
+    "img": "../images/undefined1.jpg",
+    "description": "Code refactoring, web server and database creation",
+    "tags": [
+        "React",
+        "JavaScript",
+        "Node",
+        "Gulp",
+        "Express",
+        "MySQL"
+    ],
+
+    "url": "https://awesomeprofilecards.herokuapp.com/",
+    "urlGithub": "https://github.com/MariaSernaZ/project-promo-m-module-3-team-7"
+    },
+    {
+        "id": 2,
+        "title": "Rick & Morty",
+        "img": "",
+        "description": "Development of a web application with React, API requests, filtering, and react-router links.",
+        "tags": [
+            "React",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Responsive"
+        ],
+        "url": "",    
+        "urlGithub": ""
+    },
+    {
+        "id": 3,
+        "title": "Listen to my Card",
+        "img": "",
+        "description": "Development of a web application with mobile first. Generation through API of a business card to share.",
+        "tags": [
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Responsive"
+        ],
+        "url": "",    
+        "urlGithub": ""
+    },
+    {
+        "id": 4,
+        "title": "Guess the Number",
+        "img": "",
+        "description": "Development of a web application with Javascript. Could you guess the number?",
+        "tags": [
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass"
+        ],
+        "url": "",    
+        "urlGithub": ""
+    },
+    {
+        "id": 5,
+        "title": "TV Shows Browser",
+        "img": "",
+        "description": "Development of a web application with Javascript. Could you guess the number?",
+        "tags": [
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Gulp"
+        ],
+        "url": "",    
+        "urlGithub": ""
+    },
+    {
+        "id": 6,
+        "title": "Pokemon List",
+        "img": "",
+        "description": "Development of a web application with React. Gotta catch 'em all",
+        "tags": [
+            "React",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass"
+        ],
+        "url": "",    
+        "urlGithub": ""
+    }
+    ]

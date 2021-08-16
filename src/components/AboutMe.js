@@ -14,7 +14,7 @@ import zeplinIcon from "../images/zeplin.png";
 
 const AboutMe = () => {
   return (
-    <section>
+    <section className="aboutMe">
       <h2 className="about_mainTitle">About Me</h2>
       <p className="about_text">
         It is a long established fact that a reader will be distracted by the

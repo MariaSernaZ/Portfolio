@@ -1,37 +1,36 @@
 .footerCover {
-    background-image: url("../../images/blue.jpg");
+    background-image: url("../../images/footer6.jpg");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     width: 50vw;
     min-height: 100vh;
-    //min-width: 50px;
-    border-radius: 100% 0 0 100% / 50%;
-
+    min-width: 50px;
+    border-radius: 100% 0 0 100%/ 50% ;
 }
 
-.footerContainer{
+.footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    //padding: 250px 120px 0px ;
 }
 
 .footer_text{
-    color:#25478b;
-    font-size: 70px;
+    text-align: center;
+    color:#eaecf1;
+    font-size: 30px;
     font-weight: bold;
 }
 
+
 .rrss_list{
     list-style: none;
-    align-items: center;
-    width: 100%;
+    display: flex;
+    justify-content:space-around;
 }
 
-
 .footerList_item{
-    padding: 35px 95px 35px 15px;
+    padding: 15px;
 }
 
 .rrss_link{
@@ -40,8 +39,8 @@
 }
 
 .icon{
-    width: 40px;
-    font-size: 50px;
+    width: 20px;
+    font-size: 30px;
 }
 
 

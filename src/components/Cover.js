@@ -8,7 +8,7 @@ const Cover = () => {
         <Nav></Nav>
         <div className="coverContainer">
           <h1 className="cover_mainTitle">María Serna Zafra</h1>
-          <h2 className="cover_title">Frontend Developer</h2>
+          <h2 className="cover_title">&#60;Frontend Developer&#62;</h2>
         </div>
       </section>
     </>

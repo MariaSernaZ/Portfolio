@@ -1,14 +1,18 @@
 .coverContainer{
-    padding: 250px 120px 0px 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
 }
 
 .cover_mainTitle{
     color:var(--colorCover-h1);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .cover_title{
     color: var(--colorCover-h2);
+    font-size: 20px;
 }
 
 .cover {
