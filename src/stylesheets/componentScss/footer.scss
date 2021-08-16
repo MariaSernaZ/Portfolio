@@ -1,19 +1,20 @@
 .footerCover {
-    background-image: url("../../images/bike.jpg");
+    background-image: url("../../images/blue.jpg");
     background-repeat: no-repeat;
-    background-size:50vw;
     background-position: left;
-    height: auto;
+    width: 50vw;
     min-height: 100vh;
-    min-width: 50px;
-    border-radius: 50%;
+    //min-width: 50px;
+    border-radius: 100% 0 0 100% / 50%;
+
 }
 
-.footer{
+.footerContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    //padding: 250px 120px 0px ;
 }
 
 .footer_text{
