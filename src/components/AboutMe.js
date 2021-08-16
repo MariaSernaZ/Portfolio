@@ -39,8 +39,8 @@ const AboutMe = () => {
           CSS3
         </li>
         <li className="about_item">
-          <img className="about_icon" src={jsIcon} alt="Javascript Icon" />
-          Javascript
+          <img className="about_icon" src={jsIcon} alt="JavaScript Icon" />
+          JavaScript
         </li>
         <li className="about_item">
           <img className="about_icon" src={reactIcon} alt="React Icon" />
