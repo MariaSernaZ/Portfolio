@@ -2,8 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footerCover footer">
-      <p className="footer_text">Contact</p>
+    <footer className="footer">
+      <div className="footerCover">
+        <p className="footer_text">Contact</p>
+      </div>
       <div className="footer_rrss">
         <ul className="rrss_list">
           <li className="footerList_item">

@@ -1,8 +1,8 @@
 .coverContainer{
-
     display: flex;
     flex-direction: column;
-    justify-content:center ;
+    justify-content:flex-end;
+    align-items: center;
 }
 
 .cover_mainTitle{
@@ -18,11 +18,21 @@
 .cover {
     background-image: url("../../images/cover.jpg");
     background-repeat: no-repeat;
-    background-size:50vw;
-    background-position: right;
+    background-size:cover;
+    background-position: center;
     height: auto;
     min-height: 100vh;
     min-width: 50px;
     border-radius:50%;
+    @media (min-width: 768px) {
+        background-size:50vw 100vh;
+        background-position: right;
+        min-width: 100vw;
+        border-radius:80%;
+      }
+    @media (min-width: 1024px) {
+        background-size:50vw 100vh;
+        background-position: right;
+      }
 }
 
