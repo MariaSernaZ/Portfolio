@@ -18,6 +18,9 @@
     font-weight: bold;
     word-spacing: 4px;
     letter-spacing: 3px;
+    @media (min-width: 768px) {
+        font-size:18px;
+    }
 }
 
 .navItem:hover {

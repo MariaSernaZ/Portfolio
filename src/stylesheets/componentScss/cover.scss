@@ -1,5 +1,11 @@
 .header{
     height: 100vh; 
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 .cover {
     background-image: url("../../images/cover.jpg");
@@ -9,13 +15,9 @@
     height: 80%;
     border-radius: 0 100% 100% 0/ 50%;
     @media (min-width: 768px) {
-        //background-size:50vw 100vh;
-        //background-position: right;
-        //min-width: 100vw;
-        //border-radius:80%;
         width: 50vw;
         min-height: 100vh;
-      }
+    }
 }
 
 .coverText{
@@ -24,16 +26,25 @@
     justify-content:center;
     align-items: center;
     height: 20%;
+    @media (min-width: 768px) {
+        width: 50vw;
+    }
 }
 
 .cover_mainTitle{
     color:var(--colorCover-h1);
     font-size: 35px;
+    @media (min-width: 768px) {
+        font-size: 45px;
+    }
 }
 
 .cover_title{
     color: var(--colorCover-h2);
     font-size: 20px;
+    @media (min-width: 768px) {
+        font-size: 25px;
+    }
 }
 
 
