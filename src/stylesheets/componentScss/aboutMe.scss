@@ -7,6 +7,9 @@
     background-position: right;
     height: auto;
     min-height: 100vh;
+    @media (min-width: 768px) {
+        background-position: center;
+    }
 }
 .about_mainTitle{
     color:var(--colorMain-h2);
@@ -15,6 +18,11 @@
     padding-bottom: 15px;
     letter-spacing: 4px;
     word-spacing: 8px;
+    @media (min-width: 768px) {
+        font-size: 35px;
+        letter-spacing: 6px;
+        word-spacing: 10px;
+    }
 }
 
 .about_text{
@@ -30,6 +38,9 @@
     color:var(--colorMain-h3);
     letter-spacing: 4px;
     word-spacing: 8px;
+    @media (min-width: 768px) {
+        font-size: 25px;
+    }
 }
 
 .about_list{
