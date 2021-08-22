@@ -23,60 +23,58 @@ const AboutMe = () => {
         letters, as opposed to using 'Content here, content here', making it
         look like readable English. Many desktop publishing packages and web
         page editors now use Lorem Ipsum as their default model text, and a
-        search for 'lorem ipsum' will uncover many web sites still in their
-        infancy. Various versions have evolved over the years, sometimes by
-        accident, sometimes on purpose.
+        search for 'lorem ipsum'.
       </p>
 
       <h3 className="tech_title">Technical Skills</h3>
       <ul className="about_list">
         <li className="about_item">
           <img className="about_icon" src={htmlIcon} alt="HTML5 Icon" />
-          HTML5
+          <p className="about_iconText">HTML5</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={cssIcon} alt="CSS3 Icon" />
-          CSS3
+          <p className="about_iconText">CSS3</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={jsIcon} alt="JavaScript Icon" />
-          JavaScript
+          <p className="about_iconText">JavaScript</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={reactIcon} alt="React Icon" />
-          React
+          <p className="about_iconText">React</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={gitIcon} alt="Git Icon" />
-          Git
+          <p className="about_iconText">Git</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={gulpIcon} alt="Gulp Icon" />
-          Gulp
+          <p className="about_iconText">Gulp</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={sassIcon} alt="Sass Icon" />
-          Sass
+          <p className="about_iconText">Sass</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={npmIcon} alt="Npm Icon" />
-          Npm
+          <p className="about_iconText">Npm</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={githubIcon} alt="Github Icon" />
-          Github
+          <p className="about_iconText">GitHub</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={scrumIcon} alt="Scrum Icon" />
-          Scrum-Agile
+          <p className="about_iconText">Scrum-Agile</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={codeIcon} alt="VS Code Icon" />
-          VS Code
+          <p className="about_iconText">VS Code</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={zeplinIcon} alt="Zeplin Icon" />
-          Zeplin
+          <p className="about_iconText">Zeplin</p>
         </li>
       </ul>
     </section>
