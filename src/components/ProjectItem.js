@@ -4,6 +4,9 @@ function ProjectItem(props) {
   return (
     <article className="projects__list--item">
       <h2 className="item__title">{props.title}</h2>
+      <div>
+        <img className="item-img" src={props.img} alt="foto proyecto" />
+      </div>
       <p className="item__description">{props.description}</p>
       <ul className="item__list-tags">
         {props.tags.map((tag, index) => (
@@ -12,9 +15,7 @@ function ProjectItem(props) {
           </li>
         ))}
       </ul>
-      <div>
-        <img className="item-img" src={props.img} alt="foto proyecto" />
-      </div>
+
       <div className="item-links">
         <a
           href={props.url}

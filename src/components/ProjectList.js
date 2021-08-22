@@ -12,8 +12,8 @@ function ProjectList(props) {
           <ProjectItem
             id={project.id}
             title={project.title}
-            description={project.description}
             img={project.img}
+            description={project.description}
             tags={project.tags}
             url={project.url}
             urlGithub={project.urlGithub}

@@ -20,7 +20,7 @@
         "id": 2,
         "title": "Rick & Morty",
         "img": "",
-        "description": "Development of a web application with React, API requests, filtering, and react-router links.",
+        "description": "Web application with React, API requests, filtering, and react-router links",
         "tags": [
             "React",
             "JavaScript",
@@ -36,7 +36,7 @@
         "id": 3,
         "title": "Listen to my Card",
         "img": "",
-        "description": "Development of a web application with mobile first. Generation through API of a business card to share.",
+        "description": "Responsive web application through an API that generate a business card to share",
         "tags": [
             "JavaScript",
             "HTML5",
@@ -49,23 +49,9 @@
     },
     {
         "id": 4,
-        "title": "Guess the Number",
-        "img": "",
-        "description": "Development of a web application with JavaScript. Could you guess the number?",
-        "tags": [
-            "JavaScript",
-            "HTML5",
-            "CSS3",
-            "Sass"
-        ],
-        "url": "",    
-        "urlGithub": ""
-    },
-    {
-        "id": 5,
         "title": "TV Shows Browser",
         "img": "",
-        "description": "Development of a web application with Javascript. Could you guess the number?",
+        "description": "TV show browser to add your favourites and save them in the local storage. Web application developed with JavaScript",
         "tags": [
             "JavaScript",
             "HTML5",
@@ -77,13 +63,26 @@
         "urlGithub": ""
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "Pokemon List",
         "img": "",
-        "description": "Development of a web application with React. Gotta catch 'em all",
+        "description": "Web application developed with React. Pokemon list...gotta catch 'em all",
         "tags": [
             "React",
             "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass"
+        ],
+        "url": "",    
+        "urlGithub": ""
+    },
+    {
+        "id":6 ,
+        "title": "Anonymous Proxy",
+        "img": "",
+        "description": "Responsive web application developed with HTML5 & CSS3",
+        "tags": [
             "HTML5",
             "CSS3",
             "Sass"
