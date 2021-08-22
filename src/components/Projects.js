@@ -4,7 +4,7 @@ import projectsData from "../service/projectsData.json";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <h2 className="projects_mainTitle">Projects</h2>
       <ProjectList data={projectsData} />
     </section>
