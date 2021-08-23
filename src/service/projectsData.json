@@ -19,7 +19,7 @@
     {
         "id": 2,
         "title": "Rick & Morty",
-        "img": "https://i.ibb.co/mTtdGDy/rick-morty.jpg",
+        "img": "https://i.ibb.co/rkmXvqJ/rick-morty2.jpg",
         "description": "Web application with React, API requests, filtering, and react-router links",
         "tags": [
             "React",
@@ -70,7 +70,8 @@
         "tags": [
             "HTML5",
             "CSS3",
-            "Sass"
+            "Sass",
+            "Responsive"
         ],
         "url": "",    
         "urlGithub": ""
@@ -83,7 +84,8 @@
         "tags": [
             "HTML5",
             "CSS3",
-            "Sass"
+            "Sass",
+            "Responsive"
         ],
         "url": "",    
         "urlGithub": ""
