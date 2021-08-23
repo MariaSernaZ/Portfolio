@@ -3,12 +3,9 @@ import ProjectItem from "./ProjectItem";
 
 function ProjectList(props) {
   return (
-    <ul className="projects__list">
+    <ul className="projects_listContainer">
       {props.data.map((project) => (
-        <li
-          className="projects__list--itemContainer"
-          key={project.id}
-          id={project.id}>
+        <li className="projects_listItem" key={project.id} id={project.id}>
           <ProjectItem
             id={project.id}
             title={project.title}

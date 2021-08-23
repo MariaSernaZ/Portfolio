@@ -3,13 +3,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width:100vw;
+    height: 100vh;
 }
 
 .footerCover {
     background-image: url("../../images/footer6.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 50vw;
+    min-width: 50vw;
     border-radius: 100% 0 0 100%/ 50% ;
     min-height: 100vh;
     display: flex;
@@ -17,7 +19,6 @@
     justify-content: center;
     @media (min-width: 768px) {
         width: 50vw;
-        min-height: 100vh;
     }
 }
 
@@ -45,7 +46,7 @@
 }
 
 .footerList_item{
-    padding: 25px;
+   padding: 25px;
 }
 
 .rrss_link{

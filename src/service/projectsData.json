@@ -2,7 +2,7 @@
     {
     "id": 1,
     "title": "Undefined: Stop hiding",
-    "img": "../images/undefined1.jpg",
+    "img": "https://i.ibb.co/9rrCXtw/undefined.jpg",
     "description": "Code refactoring, web server and database creation",
     "tags": [
         "React",
@@ -19,7 +19,7 @@
     {
         "id": 2,
         "title": "Rick & Morty",
-        "img": "",
+        "img": "https://i.ibb.co/mTtdGDy/rick-morty.jpg",
         "description": "Web application with React, API requests, filtering, and react-router links",
         "tags": [
             "React",
@@ -35,7 +35,7 @@
     {
         "id": 3,
         "title": "Listen to my Card",
-        "img": "",
+        "img": "https://i.ibb.co/31Hv9V9/listen-To-My-Card.jpg",
         "description": "Responsive web application through an API that generate a business card to share",
         "tags": [
             "JavaScript",
@@ -50,7 +50,7 @@
     {
         "id": 4,
         "title": "TV Shows Browser",
-        "img": "",
+        "img": "https://i.ibb.co/8BZBKkk/tv-Browser.jpg",
         "description": "TV show browser to add your favourites and save them in the local storage. Web application developed with JavaScript",
         "tags": [
             "JavaScript",
@@ -63,13 +63,11 @@
         "urlGithub": ""
     },
     {
-        "id": 5,
-        "title": "Pokemon List",
-        "img": "",
-        "description": "Web application developed with React. Pokemon list...gotta catch 'em all",
+        "id":5 ,
+        "title": "Lorem Ipsum",
+        "img": "https://i.ibb.co/LxkNqk1/Lorem-Ipsum.jpg",
+        "description": "Responsive contact web application developed with HTML5 & CSS3",
         "tags": [
-            "React",
-            "JavaScript",
             "HTML5",
             "CSS3",
             "Sass"
@@ -78,9 +76,9 @@
         "urlGithub": ""
     },
     {
-        "id":6 ,
+        "id": 6,
         "title": "Anonymous Proxy",
-        "img": "",
+        "img": "https://i.ibb.co/dgT81fX/Anonymous-Proxy.jpg",
         "description": "Responsive web application developed with HTML5 & CSS3",
         "tags": [
             "HTML5",
