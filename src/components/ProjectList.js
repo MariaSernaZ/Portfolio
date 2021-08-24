@@ -11,9 +11,8 @@ function ProjectList(props) {
             title={project.title}
             img={project.img}
             description={project.description}
-            tags={project.tags}
-            url={project.url}
-            urlGithub={project.urlGithub}
+            website={project.website}
+            githubUrl={project.githubUrl}
           />
         </li>
       ))}

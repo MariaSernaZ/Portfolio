@@ -4,30 +4,25 @@ function ProjectItem(props) {
   return (
     <article className="projects_listItem">
       <h3 className="item_title">{props.title}</h3>
-      <div>
-        <img className="item_img" src={props.img} alt="project photo" />
-      </div>
-      <div className="item_links">
-        <a href={props.url} alt={props.title} target="_blank" className="link">
-          <i class="fas fa-tv projectIcon"></i>
-        </a>
+      <div className="img_container">
         <a
-          href={props.urlGithub}
+          href={props.website}
           alt={props.title}
           target="_blank"
           className="link">
-          <i class="fas fa-code projectIcon"></i>
+          <img className="item_img" src={props.img} alt="project photo" />
         </a>
       </div>
+      <div className="item_links"></div>
       <div className="item_textContainer">
         <p className="item_description">{props.description}</p>
-        <ul className="item_tags">
-          {props.tags.map((tag, index) => (
-            <li className="item_tag" key={index}>
-              {tag}
-            </li>
-          ))}
-        </ul>
+        <a
+          href={props.githubUrl}
+          alt={props.title}
+          target="_blank"
+          className="link">
+          <i class="fab fa-github fa-lg projectIcon"></i>
+        </a>
       </div>
     </article>
   );

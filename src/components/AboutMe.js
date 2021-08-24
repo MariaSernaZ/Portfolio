@@ -30,51 +30,36 @@ const AboutMe = () => {
       <ul className="about_list">
         <li className="about_item">
           <img className="about_icon" src={htmlIcon} alt="HTML5 Icon" />
-          <p className="about_iconText">HTML5</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={cssIcon} alt="CSS3 Icon" />
-          <p className="about_iconText">CSS3</p>
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={jsIcon} alt="JavaScript Icon" />
-          <p className="about_iconText">JavaScript</p>
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={reactIcon} alt="React Icon" />
-          <p className="about_iconText">React</p>
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={gitIcon} alt="Git Icon" />
-          <p className="about_iconText">Git</p>
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={gulpIcon} alt="Gulp Icon" />
-          <p className="about_iconText">Gulp</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={sassIcon} alt="Sass Icon" />
-          <p className="about_iconText">Sass</p>
+        </li>
+        <li className="about_item">
+          <img className="about_icon" src={jsIcon} alt="JavaScript Icon" />
+        </li>
+        <li className="about_item">
+          <img className="about_icon" src={reactIcon} alt="React Icon" />
+        </li>
+        <li className="about_item">
+          <img className="about_icon" src={gulpIcon} alt="Gulp Icon" />
         </li>
         <li className="about_item">
           <img className="about_icon" src={npmIcon} alt="Npm Icon" />
-          <p className="about_iconText">Npm</p>
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={githubIcon} alt="Github Icon" />
-          <p className="about_iconText">GitHub</p>
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={scrumIcon} alt="Scrum Icon" />
-          <p className="about_iconText">Scrum-Agile</p>
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={codeIcon} alt="VS Code Icon" />
-          <p className="about_iconText">VS Code</p>
         </li>
         <li className="about_item">
           <img className="about_icon" src={zeplinIcon} alt="Zeplin Icon" />
-          <p className="about_iconText">Zeplin</p>
+        </li>
+        <li className="about_item">
+          <img className="about_icon" src={gitIcon} alt="Git Icon" />
+        </li>
+        <li className="about_item">
+          <img className="about_icon" src={githubIcon} alt="Github Icon" />
+        </li>
+        <li className="about_item">
+          <img className="about_icon" src={codeIcon} alt="VS Code Icon" />
         </li>
       </ul>
     </section>

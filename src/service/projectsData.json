@@ -12,9 +12,8 @@
         "Express",
         "MySQL"
     ],
-
-    "url": "https://awesomeprofilecards.herokuapp.com/",
-    "urlGithub": "https://github.com/MariaSernaZ/project-promo-m-module-3-team-7"
+    "website": "https://awesomeprofilecards.herokuapp.com/",    
+    "githubUrl": "https://github.com/MariaSernaZ/project-promo-m-module-3-team-7"
     },
     {
         "id": 2,
@@ -29,8 +28,8 @@
             "Sass",
             "Responsive"
         ],
-        "url": "",    
-        "urlGithub": ""
+        "website": "https://beta.adalab.es/modulo-3-evaluacion-final-MariaSernaZ/#/",    
+        "githubUrl": "https://github.com/MariaSernaZ/modulo-3-evaluacion-final-MariaSernaZ"
     },
     {
         "id": 3,
@@ -44,8 +43,8 @@
             "Sass",
             "Responsive"
         ],
-        "url": "",    
-        "urlGithub": ""
+        "website": "https://beta.adalab.es/project-promo-m-module-2-team-1/",    
+        "githubUrl": "https://github.com/MariaSernaZ/project-promo-m-module-2-team-1"
     },
     {
         "id": 4,
@@ -59,8 +58,8 @@
             "Sass",
             "Gulp"
         ],
-        "url": "",    
-        "urlGithub": ""
+        "website": "https://beta.adalab.es/modulo-2-evaluacion-final-MariaSernaZ/",    
+        "githubUrl": "https://github.com/MariaSernaZ/modulo-2-evaluacion-final-MariaSernaZ"
     },
     {
         "id":5 ,
@@ -73,8 +72,8 @@
             "Sass",
             "Responsive"
         ],
-        "url": "",    
-        "urlGithub": ""
+        "website": "https://beta.adalab.es/project-promo-m-module-1-team-7/index.html",    
+        "githubUrl": "https://github.com/MariaSernaZ/project-promo-m-module-1-team-7"
     },
     {
         "id": 6,
@@ -87,7 +86,7 @@
             "Sass",
             "Responsive"
         ],
-        "url": "",    
-        "urlGithub": ""
+        "website": "https://beta.adalab.es/modulo-1-evaluacion-final-MariaSernaZ/",    
+        "githubUrl": "https://github.com/MariaSernaZ/modulo-1-evaluacion-final-MariaSernaZ"
     }
     ]
