@@ -52,7 +52,7 @@
     padding-top: 15px;
     padding-bottom: 5px;
     grid-column: span 2;
-    color: #0f518bdc;
+    color: var(--colorProjects-titleItem);
     text-shadow: rgb(200, 199, 199) 0.1em 0.1em 0.2em;
     font-size: 20px;
     @media (min-width: 768px) {
@@ -69,7 +69,8 @@
 
 .item_img{
     width:300px;
-    border-radius: 12%;
+    border-radius: 12%; 
+    box-shadow: #4467aced 0.3em 0.3em 0.5em;
     &:hover {
         transform: scale(0.9);
     }

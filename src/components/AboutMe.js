@@ -16,10 +16,10 @@ const AboutMe = () => {
     <section id="aboutMe" className="aboutMe">
       <h2 className="about_mainTitle">About Me</h2>
       <p className="about_text">
-        Graduada en Administración y Dirección de Empresas, descubrió la
-        programación por casualidad, atrapándole la creatividad y el mundo de
-        posibilidades que plantea. A través de la programación descubrí una
-        nueva pasión con la que combinar mis capacidades creativas y analíticas.
+        Graduada en Administración y Dirección de Empresas, descubrí la
+        programación por casualidad, atrapándome la creatividad y el mundo de
+        posibilidades que plantea. Una nueva pasión con la que combinar mis
+        capacidades creativas y analíticas.
         <br></br>
         Passionate about photography, travel and sports.
         <br></br>
