@@ -16,18 +16,18 @@ const AboutMe = () => {
     <section id="aboutMe" className="aboutMe">
       <h2 className="about_mainTitle">About Me</h2>
       <p className="about_text">
-        Graduada en Administración y Dirección de Empresas, descubrí la
-        programación por casualidad, atrapándome la creatividad y el mundo de
-        posibilidades que plantea. Una nueva pasión con la que combinar mis
-        capacidades creativas y analíticas.
+        Graduated in Management and Business Administration, I discovered
+        programming by chance, catching me the creativity and the world of
+        possibilities it allows. A new passion to combine my creative and
+        analytical skills.
+        <br></br>
+        My experience working in different types of companies has made me a
+        person with adaptability and ease of learning.
         <br></br>
         Passionate about photography, travel and sports.
         <br></br>
-        Mi experiencia trabajando en distintos tipos de empresa me ha convertido
-        en una persona con capacidad de adaptación y facilidad de aprendizaje.
-        <br></br>
-        Experiencia teletrabajando. Trabajo en equipo con filosofía Agile y
-        marco de trabajo Scrum.
+        Teamwork with Agile philosophy and Scrum framework. Also, remote working
+        experience.
       </p>
 
       <h3 className="tech_title">Technical Skills</h3>
