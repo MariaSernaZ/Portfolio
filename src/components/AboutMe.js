@@ -18,7 +18,7 @@ const AboutMe = () => {
       <p className="about_text">
         I´m a Junior Frontend Developer, who discovered a new passion, a new way
         of combining my creative and analytical skills: programming. Passionate
-        about photography 📸, travel ✈️ and sports.
+        about photography , travel and sports.
         <br></br>
         Graduada en Administración y Dirección de Empresas, descubrió la
         programación por casualidad, atrapándole la creatividad y el mundo de

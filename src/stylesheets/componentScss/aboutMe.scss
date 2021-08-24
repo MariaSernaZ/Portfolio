@@ -1,16 +1,14 @@
 .aboutMe {
-    background-image: url("../../images/footer5.jpg");
+    background-image: url("../../images/old2.jpg");
     width: 100%;
     min-width: 450px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: left;
     height: auto;
     min-height: 100vh;
-    @media (min-width: 768px) {
-        background-position: center;
-    }
 }
+
 .about_mainTitle{
     color:var(--colorMain-h2);
     text-align: center;
@@ -35,9 +33,10 @@
 .tech_title{
     text-align: center;
     padding: 25px;
-    color:var(--colorMain-h3);
     letter-spacing: 4px;
     word-spacing: 8px;
+    color: #fdfdfd;
+    text-shadow: rgb(44, 43, 43) 0.1em 0.1em 0.2em;
     @media (min-width: 768px) {
         font-size: 25px;
     }
