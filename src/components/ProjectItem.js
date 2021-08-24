@@ -10,7 +10,7 @@ function ProjectItem(props) {
           alt={props.title}
           target="_blank"
           className="link">
-          <img className="item_img" src={props.img} alt="project photo" />
+          <img className="item_img" src={props.img} alt="project image" />
         </a>
       </div>
       <div className="item_links"></div>

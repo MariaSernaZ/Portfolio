@@ -9,7 +9,6 @@ import githubIcon from "../images/github.svg";
 import gulpIcon from "../images/gulp.svg";
 import npmIcon from "../images/npm.svg";
 import codeIcon from "../images/code.svg";
-import scrumIcon from "../images/scrum.png";
 import zeplinIcon from "../images/zeplin.png";
 
 const AboutMe = () => {
@@ -17,13 +16,20 @@ const AboutMe = () => {
     <section id="aboutMe" className="aboutMe">
       <h2 className="about_mainTitle">About Me</h2>
       <p className="about_text">
-        It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout. The point of
-        using Lorem Ipsum is that it has a more-or-less normal distribution of
-        letters, as opposed to using 'Content here, content here', making it
-        look like readable English. Many desktop publishing packages and web
-        page editors now use Lorem Ipsum as their default model text, and a
-        search for 'lorem ipsum'.
+        I´m a Junior Frontend Developer, who discovered a new passion, a new way
+        of combining my creative and analytical skills: programming. Passionate
+        about photography 📸, travel ✈️ and sports.
+        <br></br>
+        Graduada en Administración y Dirección de Empresas, descubrió la
+        programación por casualidad, atrapándole la creatividad y el mundo de
+        posibilidades que plantea. A través de la programación descubrí una
+        nueva pasión con la que combinar mis capacidades creativas y analíticas.
+        <br></br>
+        Mi experiencia trabajando en distintos tipos de empresa me ha convertido
+        en una persona con capacidad de adaptación y facilidad de aprendizaje.
+        <br></br>
+        Experiencia teletrabajando. Trabajo en equipo con filosofía Agile y
+        marco de trabajo Scrum.
       </p>
 
       <h3 className="tech_title">Technical Skills</h3>
