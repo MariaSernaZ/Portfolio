@@ -1,5 +1,6 @@
 .header{
     height: 100vh; 
+    min-width: 400px;
     @media (min-width: 768px) {
         display: flex;
         flex-direction: row;
@@ -13,7 +14,7 @@
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
-    height: 80%;
+    height: 80vh;
     border-radius: 0 100% 100% 0/ 50%;
     @media (min-width: 768px) {
         width: 50vw;
@@ -26,7 +27,7 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    height: 20%;
+    height: 20vh;
     @media (min-width: 768px) {
         width: 50vw;
     }
@@ -36,6 +37,9 @@
     color:var(--colorCover-h1);
     font-size: 35px;
     @media (min-width: 768px) {
+        font-size: 40px;
+    }
+    @media (min-width: 1024px) {
         font-size: 45px;
     }
 }
@@ -45,6 +49,9 @@
     font-size: 20px;
     @media (min-width: 768px) {
         font-size: 25px;
+    }
+    @media (min-width: 1024px) {
+        font-size: 30px;
     }
 }
 

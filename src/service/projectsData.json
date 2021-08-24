@@ -1,17 +1,17 @@
 [
     {
-    "id": 1,
-    "title": "Undefined: Stop hiding",
-    "img": "https://i.ibb.co/9rrCXtw/undefined.jpg",
-    "description": "Code refactoring, web server and database creation. Developed with React",
-    "website": "https://awesomeprofilecards.herokuapp.com/",    
-    "githubUrl": "https://github.com/MariaSernaZ/project-promo-m-module-3-team-7"
+        "id": 1,
+        "title": "Undefined: Stop hiding",
+        "img": "https://i.ibb.co/9rrCXtw/undefined.jpg",
+        "description": "Code refactoring from JavaScript to React. Design and database creation",
+        "website": "https://awesomeprofilecards.herokuapp.com/",    
+        "githubUrl": "https://github.com/MariaSernaZ/project-promo-m-module-3-team-7"
     },
     {
         "id": 2,
         "title": "Rick & Morty",
         "img": "https://i.ibb.co/rkmXvqJ/rick-morty2.jpg",
-        "description": "Web application with React, API requests, SPAs and filters by character",
+        "description": "Web application with React through an API requests, SPAs and filters by character",
         "website": "https://beta.adalab.es/modulo-3-evaluacion-final-MariaSernaZ/#/",    
         "githubUrl": "https://github.com/MariaSernaZ/modulo-3-evaluacion-final-MariaSernaZ"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "title": "Listen to my Card",
         "img": "https://i.ibb.co/31Hv9V9/listen-To-My-Card.jpg",
-        "description": "Responsive web application that generate a business card to share",
+        "description": "Responsive web application to design, create and generate a business card to share",
         "website": "https://beta.adalab.es/project-promo-m-module-2-team-1/",    
         "githubUrl": "https://github.com/MariaSernaZ/project-promo-m-module-2-team-1"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "title": "TV Shows Browser",
         "img": "https://i.ibb.co/8BZBKkk/tv-Browser.jpg",
-        "description": "TV show browser to add your favourites and save them in the local storage. Web application developed with JavaScript",
+        "description": "TV show API browser to add your favourites and save them in the local storage. Web application developed with JavaScript",
         "website": "https://beta.adalab.es/modulo-2-evaluacion-final-MariaSernaZ/",    
         "githubUrl": "https://github.com/MariaSernaZ/modulo-2-evaluacion-final-MariaSernaZ"
     },

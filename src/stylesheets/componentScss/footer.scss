@@ -3,7 +3,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width:100vw;
     height: 100vh;
 }
 
@@ -27,7 +26,7 @@
     color:var(--colorFooter-h2);
     font-size: 35px;
     font-weight: bold;
-    width: 40%;
+    width:50vw;
     @media (min-width: 768px) {
         font-size: 65px;
     }
@@ -37,7 +36,6 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
     align-items: center;
     @media (min-width: 768px) {
         flex-direction: row;
@@ -46,8 +44,8 @@
 }
 
 .footerList_item{
-   padding: 25px;
-}
+    padding: 25px;
+ }
 
 .rrss_link{
     text-decoration: none;
@@ -55,11 +53,12 @@
 }
 
 .icon{
-    width: 20px;
     font-size: 40px;
     @media (min-width: 768px) {
         font-size: 50px;
     }
 }
+
+
 
 
