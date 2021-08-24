@@ -22,6 +22,11 @@
         letter-spacing: 6px;
         word-spacing: 10px;
     }
+    @media (min-width: 1024px) {
+        font-size: 45px;
+        letter-spacing: 8px;
+        word-spacing: 12px;
+    }
 }
 
 .projects_listContainer{
@@ -47,7 +52,7 @@
     padding-top: 15px;
     padding-bottom: 5px;
     grid-column: span 2;
-    color: #1e82dad5;
+    color: #0f518bdc;
     text-shadow: rgb(200, 199, 199) 0.1em 0.1em 0.2em;
     font-size: 20px;
     @media (min-width: 768px) {
