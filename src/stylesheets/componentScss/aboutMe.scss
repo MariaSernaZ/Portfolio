@@ -1,5 +1,5 @@
 .aboutMe {
-    background-image: url("../../images/old3.jpg");
+    background-image: url("../../images/old4.jpg");
     width: 100%;
     min-width: 400px;
     background-repeat: no-repeat;
@@ -46,10 +46,11 @@
     padding: 25px;
     letter-spacing: 4px;
     word-spacing: 8px;
-    color: #fdfdfd;
-    text-shadow: rgb(44, 43, 43) 0.1em 0.1em 0.2em;
+    color:#f3f3f3;
+    font-size: 23px;
+    text-shadow: rgb(22, 21, 21) 0.1em 0.1em 0.2em;
     @media (min-width: 768px) {
-        font-size: 25px;
+        font-size: 28px;
     }
 }
 

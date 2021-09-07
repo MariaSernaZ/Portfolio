@@ -1,5 +1,5 @@
 .projects {
-    background-image: url("../../images/background2.jpg");
+    background-image: url("../../images/background3.jpg");
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,6 +80,9 @@
     color: #f0977a;
     width: 20px;
     font-size: 35px;
+    &:hover {
+        transform: scale(1.2);
+    }
     @media (min-width: 768px) {
         font-size: 40px;
     }
@@ -95,7 +98,7 @@
     font-size: 14px;
     text-align: center;
     width: 80%;
-    background-color:#1e82da4f;
+    background-color:#1e82da46;
     box-shadow: rgb(82, 81, 81) 0.1em 0.1em 0.2em; ;
     border-radius: 10%;
     padding:10px;

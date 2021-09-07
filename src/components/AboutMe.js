@@ -8,8 +8,9 @@ import gitIcon from "../images/git.svg";
 import githubIcon from "../images/github.svg";
 import gulpIcon from "../images/gulp.svg";
 import npmIcon from "../images/npm.svg";
-import codeIcon from "../images/code.svg";
 import zeplinIcon from "../images/zeplin.png";
+import codeIcon from "../images/code.svg";
+import scrumIcon from "../images/scrum.png";
 
 const AboutMe = () => {
   return (
@@ -17,17 +18,16 @@ const AboutMe = () => {
       <h2 className="about_mainTitle">About Me</h2>
       <p className="about_text">
         Graduated in Management and Business Administration, I discovered
-        programming by chance, catching me the creativity and the world of
-        possibilities it allows. A new passion to combine my creative and
-        analytical skills.
+        programming by chance, catching me the creativity and the possibility of
+        making an impact on society.
         <br></br>
         My experience working in different types of companies has made me a
         person with adaptability and ease of learning.
         <br></br>
         Passionate about photography, travel and sports.
         <br></br>
-        Teamwork with Agile philosophy and Scrum framework. Also, remote working
-        experience.
+        Teamwork with Agile and Scrum philosophy. I consider myself a dynamic,
+        hard-working and curious person, enjoying learning every day.
       </p>
 
       <h3 className="tech_title">Technical Skills</h3>
@@ -64,6 +64,9 @@ const AboutMe = () => {
         </li>
         <li className="about_item">
           <img className="about_icon" src={codeIcon} alt="VS Code Icon" />
+        </li>
+        <li className="about_item">
+          <img className="about_icon" src={scrumIcon} alt="Scrum Icon" />
         </li>
       </ul>
     </section>
