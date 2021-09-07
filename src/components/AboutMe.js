@@ -19,17 +19,15 @@ const AboutMe = () => {
         <h2 className="about_mainTitle">About Me</h2>
 
         <p className="about_text">
-          Graduated in Management and Business Administration, I discovered
-          programming by chance, catching me the creativity and the possibility
-          of making an impact on society.
-          <br></br>
+          I discovered programming by chance, catching me the creativity and the
+          possibility of making an impact on society.
+          <div className="line"></div>
           My experience working in different types of companies has made me a
           person with adaptability and ease of learning.
-          <br></br>
+          <div className="line"></div>
           Passionate about photography, travel and sports.
-          <br></br>
-          Teamwork with Agile and Scrum philosophy. I consider myself a
-          hard-working and curious person, enjoying learning every day.
+          <div className="line"></div>I consider myself a hard-working and
+          curious person, enjoying learning every day.
         </p>
       </div>
       <div className="tech_container">

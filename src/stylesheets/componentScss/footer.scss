@@ -30,22 +30,21 @@
     justify-content: center;
     align-items: center;
     width:50vw;
+    font-weight: bold;
 }
 .footer_text1{
     color:var(--colorFooter-h2);
     font-size: 50px;
-    font-weight: bold;
     @media (min-width: 768px) {
-        font-size: 70px;
+        font-size: 75px;
     }
 }
 
 .footer_text2{
     color:var(--colorCover-h1);
     font-size: 25px;
-    font-weight: bold;
     @media (min-width: 768px) {
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
