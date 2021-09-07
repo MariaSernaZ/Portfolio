@@ -15,60 +15,64 @@ import scrumIcon from "../images/scrum.png";
 const AboutMe = () => {
   return (
     <section id="aboutMe" className="aboutMe">
-      <h2 className="about_mainTitle">About Me</h2>
-      <p className="about_text">
-        Graduated in Management and Business Administration, I discovered
-        programming by chance, catching me the creativity and the possibility of
-        making an impact on society.
-        <br></br>
-        My experience working in different types of companies has made me a
-        person with adaptability and ease of learning.
-        <br></br>
-        Passionate about photography, travel and sports.
-        <br></br>
-        Teamwork with Agile and Scrum philosophy. I consider myself a dynamic,
-        hard-working and curious person, enjoying learning every day.
-      </p>
+      <div className="about_container">
+        <h2 className="about_mainTitle">About Me</h2>
 
-      <h3 className="tech_title">Technical Skills</h3>
-      <ul className="about_list">
-        <li className="about_item">
-          <img className="about_icon" src={htmlIcon} alt="HTML5 Icon" />
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={cssIcon} alt="CSS3 Icon" />
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={sassIcon} alt="Sass Icon" />
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={jsIcon} alt="JavaScript Icon" />
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={reactIcon} alt="React Icon" />
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={gulpIcon} alt="Gulp Icon" />
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={npmIcon} alt="Npm Icon" />
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={zeplinIcon} alt="Zeplin Icon" />
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={gitIcon} alt="Git Icon" />
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={githubIcon} alt="Github Icon" />
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={codeIcon} alt="VS Code Icon" />
-        </li>
-        <li className="about_item">
-          <img className="about_icon" src={scrumIcon} alt="Scrum Icon" />
-        </li>
-      </ul>
+        <p className="about_text">
+          Graduated in Management and Business Administration, I discovered
+          programming by chance, catching me the creativity and the possibility
+          of making an impact on society.
+          <br></br>
+          My experience working in different types of companies has made me a
+          person with adaptability and ease of learning.
+          <br></br>
+          Passionate about photography, travel and sports.
+          <br></br>
+          Teamwork with Agile and Scrum philosophy. I consider myself a
+          hard-working and curious person, enjoying learning every day.
+        </p>
+      </div>
+      <div className="tech_container">
+        <h3 className="tech_title">Technical Skills</h3>
+        <ul className="about_list">
+          <li className="about_item">
+            <img className="about_icon" src={htmlIcon} alt="HTML5 Icon" />
+          </li>
+          <li className="about_item">
+            <img className="about_icon" src={cssIcon} alt="CSS3 Icon" />
+          </li>
+          <li className="about_item">
+            <img className="about_icon" src={sassIcon} alt="Sass Icon" />
+          </li>
+          <li className="about_item">
+            <img className="about_icon" src={jsIcon} alt="JavaScript Icon" />
+          </li>
+          <li className="about_item">
+            <img className="about_icon" src={reactIcon} alt="React Icon" />
+          </li>
+          <li className="about_item">
+            <img className="about_icon" src={gulpIcon} alt="Gulp Icon" />
+          </li>
+          <li className="about_item">
+            <img className="about_icon" src={npmIcon} alt="Npm Icon" />
+          </li>
+          <li className="about_item">
+            <img className="about_icon" src={zeplinIcon} alt="Zeplin Icon" />
+          </li>
+          <li className="about_item">
+            <img className="about_icon" src={gitIcon} alt="Git Icon" />
+          </li>
+          <li className="about_item">
+            <img className="about_icon" src={githubIcon} alt="Github Icon" />
+          </li>
+          <li className="about_item">
+            <img className="about_icon" src={codeIcon} alt="VS Code Icon" />
+          </li>
+          <li className="about_item">
+            <img className="about_icon" src={scrumIcon} alt="Scrum Icon" />
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };

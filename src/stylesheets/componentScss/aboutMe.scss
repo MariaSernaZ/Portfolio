@@ -1,5 +1,5 @@
 .aboutMe {
-    background-image: url("../../images/old4.jpg");
+    background-image: url("../../images/old5.jpg");
     width: 100%;
     min-width: 400px;
     background-repeat: no-repeat;
@@ -7,6 +7,10 @@
     background-position: left;
     height: auto;
     min-height: 100vh;
+}
+
+.about_container{
+    height: 50vh;
 }
 
 .about_mainTitle{
@@ -28,17 +32,22 @@
     padding-left: 50px;
     padding-right: 20px;
     font-size: 14px;
-    line-height: 25px;
+    line-height: 30px;
+    text-align: center;
     @media (min-width: 768px) {
         padding-bottom: 45px;
-        line-height: 30px;
-        padding-left: 95px;
-        padding-right: 55px;
+        line-height: 40px;
+        padding-left: 100px;
+        padding-right: 65px;
         font-size: 16px;
     }
     @media (min-width: 1024px) {
         font-size: 18px;
     }
+}
+
+.tech_container{
+    height: 50vh;
 }
 
 .tech_title{
