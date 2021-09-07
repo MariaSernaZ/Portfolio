@@ -7,7 +7,15 @@ const Footer = () => {
         <div className="footer_contact">
           <div className="footer_text">
             <h2 className="footer_text1">Contact</h2>
-            <p className="footer_text2">Let´s talk!</p>
+            <div className="talk_container">
+              <p className="footer_text2">Let´s </p>
+              <ul className="talk_list">
+                <li>talk!</li>
+                <li>
+                  <i class="fas fa-phone-alt"></i>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="footerCover">
             <div className="footer_rrss">

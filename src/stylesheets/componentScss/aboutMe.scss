@@ -48,6 +48,9 @@
 
 .line{
     height: 15px;
+    @media (min-width: 1024px) {
+        height: 25px;
+    }
 }
 
 .tech_container{
