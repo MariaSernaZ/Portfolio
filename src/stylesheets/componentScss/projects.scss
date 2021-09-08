@@ -1,5 +1,4 @@
 .projects {
-    background-image: url("../../images/background5.jpg");
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +53,6 @@
     padding-bottom: 5px;
     grid-column: span 2;
     color: var(--colorProjects-titleItem);
-    text-shadow: rgb(200, 199, 199) 0.1em 0.1em 0.2em;
     font-size: 20px;
     @media (min-width: 768px) {
         font-size:28px;
