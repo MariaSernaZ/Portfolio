@@ -18,17 +18,39 @@ const AboutMe = () => {
       <div className="about_container">
         <h2 className="about_mainTitle">About Me</h2>
 
-        <p className="about_text">
-          I discovered programming by chance, catching me the creativity and the
-          possibility of making an impact on society.
-          <div className="line"></div>
-          My experience working in different types of companies has made me a
-          person with adaptability and ease of learning.
-          <div className="line"></div>
-          Passionate about photography, travel and sports.
-          <div className="line"></div>I consider myself a hard-working and
-          curious person, enjoying learning every day.
-        </p>
+        <div className="about_language">
+          <p className="about_text">
+            <strong>&#60;En&#62;</strong>
+            <div className="line1"></div> I discovered programming by chance,
+            catching me the creativity and the possibility of{" "}
+            <strong>making an impact on society.</strong>
+            <div className="line2"></div>
+            My experience working in different types of companies has made me a
+            person with <strong>adaptability</strong> and{" "}
+            <strong>ease of learning.</strong>
+            <div className="line2"></div>
+            Passionate about <strong>photography</strong>,{" "}
+            <strong>travel</strong> and <strong>sports.</strong>
+            <div className="line2"></div>I consider myself a{" "}
+            <strong>hard-working</strong> and <strong>curious</strong> person,
+            <strong> enjoying learning every day.</strong>
+          </p>
+          <p className="about_text about_textEs">
+            <strong>&#60;Es&#62;</strong> <div className="line1"></div>A través
+            de la programación descubrí una nueva pasión con la que combinar mis
+            capacidades creativas y analíticas.
+            <div className="line2"></div>Mi experiencia trabajando en distintos
+            tipos de empresa me ha convertido en una persona con{" "}
+            <strong>capacidad de adaptación</strong> y{" "}
+            <strong>facilidad de aprendizaje.</strong>
+            <div className="line2"></div>
+            Apasionada de la <strong>fotografía</strong>, el <strong></strong> y
+            los <strong>viajes.</strong>
+            <div className="line2"></div>Destacar el{" "}
+            <strong>trabajo en equipo</strong> como filosofía y la realización
+            de proyectos formativos bajo la metodología de Agile y Scrum.
+          </p>
+        </div>
       </div>
       <div className="tech_container">
         <h3 className="tech_title">Technical Skills</h3>
