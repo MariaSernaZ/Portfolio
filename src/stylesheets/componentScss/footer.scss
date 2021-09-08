@@ -1,6 +1,6 @@
-.footer{
+/*.footer_container{
     height: 100vh;
-}
+}*/
 
 .footer_contact{
     display: flex;
@@ -15,7 +15,7 @@
     background-position: center;
     min-width: 50vw;
     border-radius: 100% 0 0 100%/ 50% ;
-    min-height: 90vh;
+    min-height: 88vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,9 +63,6 @@
 @keyframes change {
     0%{margin-top: 0;}
     20%{margin-top: 0;}
-
-    25%{margin-top: -40px;}
-    50%{margin-top: -40px;}
 
     50%{margin-top: -40px;}
     80%{margin-top: -40px;}
@@ -119,14 +116,14 @@
 .footer_arrowCopy{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .arrowIcon{
     font-size: 35px;
     color:#f0b4a0ef;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     &:hover {
         transform: scale(1.2);
     }
