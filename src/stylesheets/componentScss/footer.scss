@@ -20,7 +20,10 @@
     flex-direction: column;
     justify-content: center;
     @media (min-width: 768px) {
-        min-height: 35vh;
+        min-height: 30vh;
+    }
+    @media (min-width: 1024px) {
+        min-height: 40vh;
     }
 }
 
@@ -47,7 +50,7 @@
     width:50vw;
     height:30px;
     @media (min-width: 768px) {
-        height:45px;
+        height:40px;
     }
 }
 
@@ -65,10 +68,8 @@
     20%{margin-top: 0;}
 
     50%{margin-top: -40px;}
+ 
     80%{margin-top: -40px;}
-    
-    80%{margin-top: -40px;}
-    95%{margin-top: -40px;}
 
     100%{margin-top: 0;}
 }

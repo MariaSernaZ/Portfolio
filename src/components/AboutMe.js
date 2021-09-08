@@ -18,78 +18,85 @@ const AboutMe = () => {
       <div className="about_container">
         <h2 className="about_mainTitle">About Me</h2>
 
-        <div className="about_language">
-          <p className="about_text">
-            <strong>&#60;En&#62;</strong>
-            <div className="line1"></div> I discovered programming by chance,
-            catching me the creativity and the possibility of{" "}
-            <strong>making an impact on society.</strong>
-            <div className="line2"></div>
-            My experience working in different types of companies has made me a
-            person with <strong>adaptability</strong> and{" "}
-            <strong>ease of learning.</strong>
-            <div className="line2"></div>
-            Passionate about <strong>photography</strong>,{" "}
-            <strong>travel</strong> and <strong>sports.</strong>
-            <div className="line2"></div>I consider myself a{" "}
-            <strong>hard-working</strong> and <strong>curious</strong> person,
-            <strong> enjoying learning every day.</strong>
-          </p>
-          <p className="about_text about_textEs">
-            <strong>&#60;Es&#62;</strong> <div className="line1"></div>A través
-            de la programación descubrí una nueva pasión con la que combinar mis
-            capacidades creativas y analíticas.
-            <div className="line2"></div>Mi experiencia trabajando en distintos
-            tipos de empresa me ha convertido en una persona con{" "}
-            <strong>capacidad de adaptación</strong> y{" "}
-            <strong>facilidad de aprendizaje.</strong>
-            <div className="line2"></div>
-            Apasionada de la <strong>fotografía</strong>, el <strong></strong> y
-            los <strong>viajes.</strong>
-            <div className="line2"></div>Destacar el{" "}
-            <strong>trabajo en equipo</strong> como filosofía y la realización
-            de proyectos formativos bajo la metodología de Agile y Scrum.
-          </p>
-        </div>
+        <section className="about_language">
+          <button className="btn-toggle">
+            <a href="#toggle-textEn">&#60;En&#62;</a>
+          </button>
+          <article className="article_toggle">
+            <p className="about_text about_textEn" id="toggle-textEn">
+              I discovered programming by chance, catching me the creativity and
+              the possibility of <strong>making an impact on society.</strong>
+              <div className="line"></div>
+              My experience working in different types of companies has made me
+              a person with <strong>adaptability</strong> and{" "}
+              <strong>ease of learning.</strong>
+              <div className="line"></div>
+              Passionate about <strong>photography</strong>,{" "}
+              <strong>travel</strong> and <strong>sports.</strong>
+              <div className="line"></div>I consider myself a{" "}
+              <strong>hard-working</strong> and <strong>curious</strong> person,
+              <strong> enjoying learning every day.</strong>
+            </p>
+          </article>
+          <button className="btn-toggle">
+            <a href="#toggle-textEn">&#60;Es&#62;</a>
+          </button>
+          <article className="article_toggle">
+            <p className="about_text about_textEs" id="toggle-textEs">
+              A través de la programación descubrí una nueva pasión con la que
+              combinar mis capacidades creativas y analíticas.
+              <div className="line"></div>Mi experiencia trabajando en distintos
+              tipos de empresa me ha convertido en una persona con{" "}
+              <strong>capacidad de adaptación</strong> y{" "}
+              <strong>facilidad de aprendizaje.</strong>
+              <div className="line"></div>
+              Apasionada de la <strong>fotografía</strong>, el <strong></strong>{" "}
+              y los <strong>viajes.</strong>
+              <div className="line"></div>Destacar el{" "}
+              <strong>trabajo en equipo</strong> como filosofía y la realización
+              de proyectos formativos bajo la metodología de Agile y Scrum.
+            </p>
+          </article>
+        </section>
       </div>
       <div className="tech_container">
         <h3 className="tech_title">Technical Skills</h3>
-        <ul className="about_list">
-          <li className="about_item">
-            <img className="about_icon" src={htmlIcon} alt="HTML5 Icon" />
+        <ul className="tech_list">
+          <li className="tech_item">
+            <img className="tech_icon" src={htmlIcon} alt="HTML5 Icon" />
           </li>
-          <li className="about_item">
-            <img className="about_icon" src={cssIcon} alt="CSS3 Icon" />
+          <li className="tech_item">
+            <img className="tech_icon" src={cssIcon} alt="CSS3 Icon" />
           </li>
-          <li className="about_item">
-            <img className="about_icon" src={sassIcon} alt="Sass Icon" />
+          <li className="tech_item">
+            <img className="tech_icon" src={sassIcon} alt="Sass Icon" />
           </li>
-          <li className="about_item">
-            <img className="about_icon" src={jsIcon} alt="JavaScript Icon" />
+          <li className="tech_item">
+            <img className="tech_icon" src={jsIcon} alt="JavaScript Icon" />
           </li>
-          <li className="about_item">
-            <img className="about_icon" src={reactIcon} alt="React Icon" />
+          <li className="tech_item">
+            <img className="tech_icon" src={reactIcon} alt="React Icon" />
           </li>
-          <li className="about_item">
-            <img className="about_icon" src={gulpIcon} alt="Gulp Icon" />
+          <li className="tech_item">
+            <img className="tech_icon" src={gulpIcon} alt="Gulp Icon" />
           </li>
-          <li className="about_item">
-            <img className="about_icon" src={npmIcon} alt="Npm Icon" />
+          <li className="tech_item">
+            <img className="tech_icon" src={npmIcon} alt="Npm Icon" />
           </li>
-          <li className="about_item">
-            <img className="about_icon" src={zeplinIcon} alt="Zeplin Icon" />
+          <li className="tech_item">
+            <img className="tech_icon" src={zeplinIcon} alt="Zeplin Icon" />
           </li>
-          <li className="about_item">
-            <img className="about_icon" src={gitIcon} alt="Git Icon" />
+          <li className="tech_item">
+            <img className="tech_icon" src={gitIcon} alt="Git Icon" />
           </li>
-          <li className="about_item">
-            <img className="about_icon" src={githubIcon} alt="Github Icon" />
+          <li className="tech_item">
+            <img className="tech_icon" src={githubIcon} alt="Github Icon" />
           </li>
-          <li className="about_item">
-            <img className="about_icon" src={codeIcon} alt="VS Code Icon" />
+          <li className="tech_item">
+            <img className="tech_icon" src={codeIcon} alt="VS Code Icon" />
           </li>
-          <li className="about_item">
-            <img className="about_icon" src={scrumIcon} alt="Scrum Icon" />
+          <li className="tech_item">
+            <img className="tech_icon" src={scrumIcon} alt="Scrum Icon" />
           </li>
         </ul>
       </div>
