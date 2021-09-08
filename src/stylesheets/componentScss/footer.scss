@@ -15,10 +15,13 @@
     background-position: center;
     width: 50vw;
     border-radius: 100% 0 0 100%/ 50% ;
-    min-height: 35vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @media (min-width: 768px) {
+        min-height: 35vh;
+    }
 }
 
 .footer_text{
