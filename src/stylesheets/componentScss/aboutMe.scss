@@ -25,6 +25,9 @@
         letter-spacing: 6px;
         word-spacing: 10px;
     }
+    @media (min-width: 1024px) {
+        padding-bottom: 30px;
+    }
 }
 
 /*.about_language{
@@ -55,6 +58,7 @@
         padding-left: 50px;
         padding-right: 40px;
         font-size: 14px;
+        padding-bottom: 35px;
     }
     @media (min-width: 1024px) {
         font-size: 16px;
@@ -82,6 +86,9 @@
     @media (min-width: 768px) {
         font-size: 35px;
         padding-bottom: 25px;
+    }
+    @media (min-width: 1024px) {
+        padding-bottom: 35px;
     }
 }
 
