@@ -12,7 +12,7 @@ const Footer = () => {
               <ul className="talk_list">
                 <li>talk!</li>
                 <li>
-                  <i class="fas fa-phone-alt"></i>
+                  <i class="fas fa-phone-alt icon_phone"></i>
                 </li>
               </ul>
             </div>

@@ -19,11 +19,8 @@ const AboutMe = () => {
         <h2 className="about_mainTitle">About Me</h2>
 
         <section className="about_language">
-          <button className="btn-toggle">
-            <a href="#toggle-textEn">&#60;En&#62;</a>
-          </button>
           <article className="article_toggle">
-            <p className="about_text about_textEn" id="toggle-textEn">
+            <p className="about_text ">
               I discovered programming by chance, catching me the creativity and
               the possibility of <strong>making an impact on society.</strong>
               <div className="line"></div>
@@ -36,25 +33,6 @@ const AboutMe = () => {
               <div className="line"></div>I consider myself a{" "}
               <strong>hard-working</strong> and <strong>curious</strong> person,
               <strong> enjoying learning every day.</strong>
-            </p>
-          </article>
-          <button className="btn-toggle">
-            <a href="#toggle-textEn">&#60;Es&#62;</a>
-          </button>
-          <article className="article_toggle">
-            <p className="about_text about_textEs" id="toggle-textEs">
-              A través de la programación descubrí una nueva pasión con la que
-              combinar mis capacidades creativas y analíticas.
-              <div className="line"></div>Mi experiencia trabajando en distintos
-              tipos de empresa me ha convertido en una persona con{" "}
-              <strong>capacidad de adaptación</strong> y{" "}
-              <strong>facilidad de aprendizaje.</strong>
-              <div className="line"></div>
-              Apasionada de la <strong>fotografía</strong>, el <strong></strong>{" "}
-              y los <strong>viajes.</strong>
-              <div className="line"></div>Destacar el{" "}
-              <strong>trabajo en equipo</strong> como filosofía y la realización
-              de proyectos formativos bajo la metodología de Agile y Scrum.
             </p>
           </article>
         </section>
