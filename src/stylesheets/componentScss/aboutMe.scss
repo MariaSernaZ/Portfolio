@@ -6,21 +6,20 @@
     background-size: cover;
     background-position: left;
     height: auto;
-}
-
-.about_container{
-    height: 50vh;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .about_mainTitle{
     color:var(--colorMain-h2);
     text-align: center;
-    padding-top: 15px;
     padding-bottom: 15px;
     letter-spacing: 4px;
     word-spacing: 8px;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 900;
     @media (min-width: 768px) {
         font-size: 35px;
         letter-spacing: 6px;
@@ -55,7 +54,7 @@
         line-height: 10px;
         padding-left: 50px;
         padding-right: 40px;
-        font-size: 16px;
+        font-size: 14px;
     }
     @media (min-width: 1024px) {
         font-size: 16px;
@@ -72,13 +71,9 @@
     }
 }
 
-.tech_container{
-    height: 50vh;
-}
-
 .tech_title{
     text-align: center;
-    padding: 10px;
+    padding-bottom: 15px;
     letter-spacing: 4px;
     word-spacing: 8px;
     color:#4466ac;
@@ -86,6 +81,7 @@
     font-weight: 800;
     @media (min-width: 768px) {
         font-size: 35px;
+        padding-bottom: 25px;
     }
 }
 

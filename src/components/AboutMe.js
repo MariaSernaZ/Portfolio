@@ -15,29 +15,25 @@ import scrumIcon from "../images/scrum.png";
 const AboutMe = () => {
   return (
     <section id="aboutMe" className="aboutMe">
-      <div className="about_container">
+      <article>
         <h2 className="about_mainTitle">About Me</h2>
+        <p className="about_text ">
+          I discovered programming by chance, catching me the creativity and the
+          possibility of <strong>making an impact on society.</strong>
+          <div className="line"></div>
+          My experience working in different types of companies has made me a
+          person with <strong>adaptability</strong> and{" "}
+          <strong>ease of learning.</strong>
+          <div className="line"></div>
+          Passionate about <strong>photography</strong>, <strong>travel</strong>{" "}
+          and <strong>sports.</strong>
+          <div className="line"></div>I consider myself a{" "}
+          <strong>hard-working</strong> and <strong>curious</strong> person,
+          <strong> enjoying learning every day.</strong>
+        </p>
+      </article>
 
-        <section className="about_language">
-          <article className="article_toggle">
-            <p className="about_text ">
-              I discovered programming by chance, catching me the creativity and
-              the possibility of <strong>making an impact on society.</strong>
-              <div className="line"></div>
-              My experience working in different types of companies has made me
-              a person with <strong>adaptability</strong> and{" "}
-              <strong>ease of learning.</strong>
-              <div className="line"></div>
-              Passionate about <strong>photography</strong>,{" "}
-              <strong>travel</strong> and <strong>sports.</strong>
-              <div className="line"></div>I consider myself a{" "}
-              <strong>hard-working</strong> and <strong>curious</strong> person,
-              <strong> enjoying learning every day.</strong>
-            </p>
-          </article>
-        </section>
-      </div>
-      <div className="tech_container">
+      <article className="tech_container">
         <h3 className="tech_title">Technical Skills</h3>
         <ul className="tech_list">
           <li className="tech_item">
@@ -77,7 +73,7 @@ const AboutMe = () => {
             <img className="tech_icon" src={scrumIcon} alt="Scrum Icon" />
           </li>
         </ul>
-      </div>
+      </article>
     </section>
   );
 };
