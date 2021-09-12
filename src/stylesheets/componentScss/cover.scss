@@ -1,5 +1,5 @@
 .header{
-    height: 100vh; 
+    //height: 100vh; 
     min-width: 400px;
     @media (min-width: 768px) {
         display: flex;
@@ -27,7 +27,7 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
     @media (min-width: 768px) {
         width: 50vw;
     }
