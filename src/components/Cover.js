@@ -10,7 +10,7 @@ const Cover = () => {
         </div>
         <div className="coverText">
           <h1 className="cover_mainTitle">María Serna Zafra</h1>
-          <h2 className="cover_title">&#60;Frontend Developer&#62;</h2>
+          <h2 className="cover_title">&#60;Junior Frontend Developer&#62;</h2>
           <p className="cover_text">Welcome to my portfolio!</p>
         </div>
       </section>
