@@ -51,7 +51,7 @@
     padding-bottom: 10px;
     opacity: 0;
     transform: translateX(3rem);
-    animation: fadeInUp 2s ease forwards;
+    animation: fadeIn 2s ease forwards;
     @media (min-width: 768px) {
         font-size: 25px;
         padding-bottom: 35px;
@@ -62,7 +62,7 @@
     }
 }
 
-@keyframes fadeInUp {
+@keyframes fadeIn {
     to {
         opacity:1;
         transform: translateX(0);
