@@ -15,7 +15,7 @@ import scrumIcon from "../images/scrum.png";
 import { useTranslation } from "react-i18next";
 
 const AboutMe = () => {
-  const [t, i18n] = useTranslation("about");
+  const [t] = useTranslation("about");
 
   return (
     <section id="aboutMe" className="aboutMe">

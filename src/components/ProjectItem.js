@@ -9,6 +9,7 @@ function ProjectItem(props) {
           href={props.website}
           alt={props.title}
           target="_blank"
+          rel="noreferrer"
           className="link">
           <img className="item_img" src={props.img} alt="project image" />
         </a>
@@ -20,6 +21,7 @@ function ProjectItem(props) {
           href={props.githubUrl}
           alt={props.title}
           target="_blank"
+          rel="noreferrer"
           className="link">
           <i class="fab fa-github fa-lg projectIcon"></i>
         </a>

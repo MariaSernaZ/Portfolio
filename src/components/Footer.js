@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const [t, i18n] = useTranslation("footer");
+  const [t] = useTranslation("footer");
   return (
     <footer id="contact" className="footer">
       <div className="footer_container">
@@ -27,6 +27,7 @@ const Footer = () => {
                     href="https://www.linkedin.com/in/maria-serna-zafra/"
                     alt="Linkedin profile"
                     target="_blank"
+                    rel="noreferrer"
                     className="rrss_link">
                     <i class="fab fa-linkedin fa-lg icon"></i>
                   </a>
@@ -36,6 +37,7 @@ const Footer = () => {
                     href="https://github.com/MariaSernaZ"
                     alt="Github profile"
                     target="_blank"
+                    rel="noreferrer"
                     className="rrss_link">
                     <i class="fab fa-github fa-lg icon"></i>
                   </a>
@@ -45,6 +47,7 @@ const Footer = () => {
                     href="mailto:maria.serna.zafra@gmail.com"
                     alt="Email contact"
                     target="_blank"
+                    rel="noreferrer"
                     className="rrss_link">
                     <i class="fas fa-envelope-square fa-lg icon"></i>
                   </a>
