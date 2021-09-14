@@ -12,29 +12,19 @@ import zeplinIcon from "../images/zeplin.png";
 import codeIcon from "../images/code.svg";
 import scrumIcon from "../images/scrum.png";
 
+import { useTranslation } from "react-i18next";
+
 const AboutMe = () => {
+  const [t, i18n] = useTranslation("about");
   return (
     <section id="aboutMe" className="aboutMe">
       <article>
-        <h2 className="about_mainTitle">About Me</h2>
-        <p className="about_text ">
-          I discovered programming by chance, catching me the creativity and the
-          possibility of <strong>making an impact on society.</strong>
-          <div className="line"></div>
-          My experience working in different types of companies has made me a
-          person with <strong>adaptability</strong> and{" "}
-          <strong>ease of learning.</strong>
-          <div className="line"></div>
-          Passionate about <strong>photography</strong>, <strong>travel</strong>{" "}
-          and <strong>sports.</strong>
-          <div className="line"></div>I consider myself a{" "}
-          <strong>hard-working</strong> and <strong>curious</strong> person,
-          <strong> enjoying learning every day.</strong>
-        </p>
+        <h2 className="about_mainTitle">{t("about.title")}</h2>
+        <p className="about_text ">{t("about.description")}</p>
       </article>
 
       <article className="tech_container">
-        <h3 className="tech_title">Technical Skills</h3>
+        <h3 className="tech_title">{t("about.techTitle")}</h3>
         <ul className="tech_list">
           <li className="tech_item">
             <img className="tech_icon" src={htmlIcon} alt="HTML5 Icon" />
