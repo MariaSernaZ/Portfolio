@@ -22,23 +22,6 @@
     }
 }
 
-.button_language{
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-end ;
-    align-items: center;
-    padding-top: 50px;
-    padding-right: 25px;
-    @media (min-width: 768px) {
-        
-    }
-}
-
-.button{
-    background: blue;
-    color: cadetblue;
-}
-
 .coverText{
     display: flex;
     flex-direction: column;

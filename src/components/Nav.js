@@ -6,6 +6,20 @@ const Nav = () => {
   return (
     <nav className="nav">
       <ul className="navList">
+        <li>
+          <div>
+            <button
+              className="button button_es"
+              onClick={() => i18n.changeLanguage("es")}>
+              ES
+            </button>
+            <button
+              className="button"
+              onClick={() => i18n.changeLanguage("en")}>
+              EN
+            </button>
+          </div>
+        </li>
         <li className="navItem">
           <a classname="nav_link" href="#aboutMe">
             {t("nav.about")}

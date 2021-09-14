@@ -9,18 +9,7 @@ const Cover = () => {
       <section id="header" className="header">
         <div className="cover">
           <Nav></Nav>
-          <div className="button_language">
-            <button
-              classname="button"
-              onClick={() => i18n.changeLanguage("es")}>
-              ES
-            </button>
-            <button
-              classname="button"
-              onClick={() => i18n.changeLanguage("en")}>
-              EN
-            </button>
-          </div>
+          
         </div>
         <div className="coverText">
           <h1 className="cover_mainTitle">María Serna Zafra</h1>
