@@ -1,16 +1,18 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const [t, i18n] = useTranslation("footer");
   return (
     <footer id="contact" className="footer">
       <div className="footer_container">
         <div className="footer_contact">
           <div className="footer_text">
-            <h2 className="footer_text1">Contact</h2>
+            <h2 className="footer_text1">{t("footer.title")}</h2>
             <div className="talk_container">
-              <p className="footer_text2">Let´s </p>
+              <p className="footer_text2">{t("footer.text1")}</p>
               <ul className="talk_list">
-                <li>talk!</li>
+                <li>{t("footer.text2")}</li>
                 <li>
                   <i class="fas fa-phone-alt icon_phone"></i>
                 </li>
@@ -59,7 +61,7 @@ const Footer = () => {
           </div>
           <div className="footer_copy">
             <p className="copy">
-              &copy; 2021 · Developed by María Serna Zafra ·
+              &copy; 2021 · {t("footer.copy")} María Serna Zafra ·
             </p>
           </div>
         </div>

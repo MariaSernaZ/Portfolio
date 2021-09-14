@@ -11,6 +11,9 @@ import global_en from "./languages/en/global.json";
 import about_es from "./languages/es/about.json";
 import about_en from "./languages/en/about.json";
 
+import footer_es from "./languages/es/footer.json";
+import footer_en from "./languages/en/footer.json";
+
 i18next.init({
   interpolation: { escapeValue: false },
   lng: "en",
@@ -18,10 +21,12 @@ i18next.init({
     es: {
       global: global_es,
       about: about_es,
+      footer: footer_es,
     },
     en: {
       global: global_en,
       about: about_en,
+      footer: footer_en,
     },
   },
 });
