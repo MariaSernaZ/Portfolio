@@ -8,6 +8,9 @@ import i18next from "i18next";
 import global_es from "./languages/es/global.json";
 import global_en from "./languages/en/global.json";
 
+import nav_es from "./languages/es/nav.json";
+import nav_en from "./languages/en/nav.json";
+
 import about_es from "./languages/es/about.json";
 import about_en from "./languages/en/about.json";
 
@@ -20,11 +23,13 @@ i18next.init({
   resources: {
     es: {
       global: global_es,
+      nav: nav_es,
       about: about_es,
       footer: footer_es,
     },
     en: {
       global: global_en,
+      nav: nav_en,
       about: about_en,
       footer: footer_en,
     },

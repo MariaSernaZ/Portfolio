@@ -1,22 +1,24 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Nav = () => {
+  const [t, i18n] = useTranslation("nav");
   return (
     <nav className="nav">
       <ul className="navList">
         <li className="navItem">
           <a classname="nav_link" href="#aboutMe">
-            About me
+            {t("nav.about")}
           </a>
         </li>
         <li className="navItem">
           <a classname="nav_link" href="#projects">
-            Projects
+            {t("nav.projects")}
           </a>
         </li>
         <li className="navItem">
           <a classname="nav_link" href="#contact">
-            Contact
+            {t("nav.contact")}
           </a>
         </li>
       </ul>
