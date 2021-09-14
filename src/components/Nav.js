@@ -7,14 +7,14 @@ const Nav = () => {
     <nav className="nav">
       <ul className="navList">
         <li>
-          <div className="button_language">
+          <div>
             <button
-              classname="button"
+              className="button button_es"
               onClick={() => i18n.changeLanguage("es")}>
               ES
             </button>
             <button
-              classname="button"
+              className="button"
               onClick={() => i18n.changeLanguage("en")}>
               EN
             </button>

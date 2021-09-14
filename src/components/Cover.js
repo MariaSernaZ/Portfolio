@@ -3,7 +3,7 @@ import Nav from "./Nav.js";
 import { useTranslation } from "react-i18next";
 
 const Cover = () => {
-  const [t] = useTranslation("global");
+  const [t, i18n] = useTranslation("global");
   return (
     <>
       <section id="header" className="header">

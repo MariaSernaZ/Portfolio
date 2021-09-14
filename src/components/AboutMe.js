@@ -12,20 +12,16 @@ import zeplinIcon from "../images/zeplin.png";
 import codeIcon from "../images/code.svg";
 import scrumIcon from "../images/scrum.png";
 
-import { useTranslation } from "react-i18next";
-
 const AboutMe = () => {
-  const [t] = useTranslation("about");
-
   return (
     <section id="aboutMe" className="aboutMe">
       <article>
-        <h2 className="about_mainTitle">{t("about.title")}</h2>
-        <p className="about_text">{t("about.description")}</p>
+        <h2 className="about_mainTitle">About Me</h2>
+        <p className="about_text">sdfsfs</p>
       </article>
 
       <article className="tech_container">
-        <h3 className="tech_title">{t("about.techTitle")}</h3>
+        <h3 className="tech_title">Tech</h3>
         <ul className="tech_list">
           <li className="tech_item">
             <img className="tech_icon" src={htmlIcon} alt="HTML5 Icon" />
