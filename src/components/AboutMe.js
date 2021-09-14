@@ -16,11 +16,12 @@ import { useTranslation } from "react-i18next";
 
 const AboutMe = () => {
   const [t, i18n] = useTranslation("about");
+
   return (
     <section id="aboutMe" className="aboutMe">
       <article>
         <h2 className="about_mainTitle">{t("about.title")}</h2>
-        <p className="about_text ">{t("about.description")}</p>
+        <p className="about_text">{t("about.description")}</p>
       </article>
 
       <article className="tech_container">
