@@ -12,13 +12,14 @@ In this portfolio you'll find the projects I've been working on as a Frontend de
 * Git and Gulp
 
 ## Setup 🚀
-To run this project, install it locally using $ **npm install** and then $ **npm start**.
+To run this project, install it locally using $ **npm install** and, then, use $ **npm start**.
 
 ## About me
 I'm a Frontend Developer based in Alicante, Spain.
 
 ### Let's get in touch!! >> [María Serna Zafra](https://www.linkedin.com/in/maria-serna-zafra/)  
-
+  
+  
 Thanks to the support and advices 🎁
   * 📢 [Elena Abril](https://www.linkedin.com/in/elenaabrilmedina/)
   * 📢 [Paricia Vaquero](https://www.linkedin.com/in/patriciavaquerosaenz/)
