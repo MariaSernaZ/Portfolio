@@ -21,5 +21,5 @@ I'm a front end developer based in Alicante, Spain.
 Let's get in touch!! https://www.linkedin.com/in/maria-serna-zafra/
 
 Thanks to the support and advices 🎁
-  📢 [Elena Abril] (https://www.linkedin.com/in/elenaabrilmedina/)
-  📢 [Paricia Vaquero] (https://www.linkedin.com/in/patriciavaquerosaenz/)
+  📢 [Elena Abril](https://www.linkedin.com/in/elenaabrilmedina/)
+  📢 [Paricia Vaquero](https://www.linkedin.com/in/patriciavaquerosaenz/)
