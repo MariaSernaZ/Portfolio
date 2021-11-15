@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectList from "./ProjectList";
 import projectsData from "../service/en/projectsData.json";
-import projectsData_es from "../service/es/projectsData.json";
+//import projectsData_es from "../service/es/projectsData.json";
 import { useTranslation } from "react-i18next";
 
 const Projects = () => {
@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section id="projects" className="projects">
       <h2 className="projects_mainTitle">Projects</h2>
-      <ProjectList data={projectsData} data={projectsData_es} />
+      <ProjectList data={projectsData} />
     </section>
   );
 };

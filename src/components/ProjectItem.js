@@ -5,7 +5,7 @@ function ProjectItem(props) {
   const [t] = useTranslation("projectsData");
   return (
     <article className="projects_listItem">
-      <h3 className="item_title">{t("props.title")}</h3>
+      <h3 className="item_title">{props.title}</h3>
       <div className="img_container">
         <a
           href={props.website}

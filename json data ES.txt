@@ -1,0 +1,53 @@
+NOMBRE DEL JSON: projectsData.json
+
+
+[
+    {
+        "id": 1,
+        "title": "Undefined: Stop hiding",
+        "img": "https://i.ibb.co/9rrCXtw/undefined.jpg",
+        "description": "JavaScript to React",
+        "website": "https://awesomeprofilecards.herokuapp.com/",    
+        "githubUrl": "https://github.com/MariaSernaZ/project-promo-m-module-3-team-7"
+    },
+    {
+        "id": 2,
+        "title": "Rick & Morty",
+        "img": "https://i.ibb.co/rkmXvqJ/rick-morty2.jpg",
+        "description": "Web application",
+        "website": "https://beta.adalab.es/modulo-3-evaluacion-final-MariaSernaZ/#/",    
+        "githubUrl": "https://github.com/MariaSernaZ/modulo-3-evaluacion-final-MariaSernaZ"
+    },
+    {
+        "id": 3,
+        "title": "Listen to my Card",
+        "img": "https://i.ibb.co/31Hv9V9/listen-To-My-Card.jpg",
+        "description": "Responsive web application to design, create and generate a business card to share",
+        "website": "https://beta.adalab.es/project-promo-m-module-2-team-1/",    
+        "githubUrl": "https://github.com/MariaSernaZ/project-promo-m-module-2-team-1"
+    },
+    {
+        "id": 4,
+        "title": "TV Shows Browser",
+        "img": "https://i.ibb.co/8BZBKkk/tv-Browser.jpg",
+        "description": "TV show API browser to add your favourites and save them in the local storage. Web application developed with JavaScript",
+        "website": "https://beta.adalab.es/modulo-2-evaluacion-final-MariaSernaZ/",    
+        "githubUrl": "https://github.com/MariaSernaZ/modulo-2-evaluacion-final-MariaSernaZ"
+    },
+    {
+        "id":5 ,
+        "title": "Lorem Ipsum",
+        "img": "https://i.ibb.co/LxkNqk1/Lorem-Ipsum.jpg",
+        "description": "Responsive contact web application developed with HTML5 & CSS3",
+        "website": "https://beta.adalab.es/project-promo-m-module-1-team-7/index.html",    
+        "githubUrl": "https://github.com/MariaSernaZ/project-promo-m-module-1-team-7"
+    },
+    {
+        "id": 6,
+        "title": "Anonymous Proxy",
+        "img": "https://i.ibb.co/dgT81fX/Anonymous-Proxy.jpg",
+        "description": "Responsive web application developed with HTML5 & CSS3",
+        "website": "https://beta.adalab.es/modulo-1-evaluacion-final-MariaSernaZ/",    
+        "githubUrl": "https://github.com/MariaSernaZ/modulo-1-evaluacion-final-MariaSernaZ"
+    }
+    ]
