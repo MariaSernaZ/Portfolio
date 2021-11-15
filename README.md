@@ -16,10 +16,10 @@ To run this project, install it locally using $ npm install and then $ npm start
 
 ## About me
 
-I'm a front end developer based in Alicante, Spain.
+I'm a Frontend Developer based in Alicante, Spain.
 
-Let's get in touch!! https://www.linkedin.com/in/maria-serna-zafra/
+**Let's get in touch!!** https://www.linkedin.com/in/maria-serna-zafra/
 
-Thanks to the support and advices 🎁
+**Thanks to the support and advices** 🎁
   * 📢 [Elena Abril](https://www.linkedin.com/in/elenaabrilmedina/)
   * 📢 [Paricia Vaquero](https://www.linkedin.com/in/patriciavaquerosaenz/)
