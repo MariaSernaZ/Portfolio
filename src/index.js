@@ -14,6 +14,9 @@ import nav_en from "./languages/en/nav.json";
 import about_es from "./languages/es/about.json";
 import about_en from "./languages/en/about.json";
 
+import projectsData_es from "./service/es/projectsData.json";
+import projectsData_en from "./service/en/projectsData.json";
+
 import footer_es from "./languages/es/footer.json";
 import footer_en from "./languages/en/footer.json";
 
@@ -26,12 +29,14 @@ i18next.init({
       nav: nav_es,
       about: about_es,
       footer: footer_es,
+      projectsData: projectsData_es,
     },
     en: {
       global: global_en,
       nav: nav_en,
       about: about_en,
       footer: footer_en,
+      projectsData: projectsData_en,
     },
   },
 });

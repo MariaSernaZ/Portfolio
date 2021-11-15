@@ -3,9 +3,7 @@
         "id": 1,
         "title": "Undefined: Stop hiding",
         "img": "https://i.ibb.co/9rrCXtw/undefined.jpg",
-        "description": 
-            "Code refactoring from JavaScript to React. Design and database creation",
-           
+        "description": "JavaScript to React",
         "website": "https://awesomeprofilecards.herokuapp.com/",    
         "githubUrl": "https://github.com/MariaSernaZ/project-promo-m-module-3-team-7"
     },
@@ -13,7 +11,7 @@
         "id": 2,
         "title": "Rick & Morty",
         "img": "https://i.ibb.co/rkmXvqJ/rick-morty2.jpg",
-        "description": "Web application with React through an API requests, SPAs and filters by character",
+        "description": "Web application",
         "website": "https://beta.adalab.es/modulo-3-evaluacion-final-MariaSernaZ/#/",    
         "githubUrl": "https://github.com/MariaSernaZ/modulo-3-evaluacion-final-MariaSernaZ"
     },
