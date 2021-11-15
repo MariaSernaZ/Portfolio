@@ -15,7 +15,6 @@ In this portfolio you'll find the projects I've been working on as a Frontend de
 To run this project, install it locally using $ **npm install** and then $ **npm start**.
 
 ## About me
-
 I'm a Frontend Developer based in Alicante, Spain.
 
 ### Let's get in touch!! >> [María Serna Zafra](https://www.linkedin.com/in/maria-serna-zafra/)  
