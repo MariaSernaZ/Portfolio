@@ -20,6 +20,7 @@ I'm a Frontend Developer based in Alicante, Spain.
 
 ### Let's get in touch!! [María Serna Zafra](https://www.linkedin.com/in/maria-serna-zafra/)  
 
+
 **Thanks to the support and advices** 🎁
   * 📢 [Elena Abril](https://www.linkedin.com/in/elenaabrilmedina/)
   * 📢 [Paricia Vaquero](https://www.linkedin.com/in/patriciavaquerosaenz/)
