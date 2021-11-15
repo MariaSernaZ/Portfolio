@@ -4,7 +4,7 @@ After this months I decided to make my own portfolio. It was a great way to keep
 In this portfolio you'll find the projects I've been working on as a Frontend developer.
 
 ![coverPortfolio](https://user-images.githubusercontent.com/74073708/141778153-f552bf70-c297-4a52-9bc8-0e931b27676e.png)
-<img src="https://user-images.githubusercontent.com/74073708/141778153-f552bf70-c297-4a52-9bc8-0e931b27676e.png" alt="Cover Portfolio" style="width:50%">
+<img src="https://user-images.githubusercontent.com/74073708/141778153-f552bf70-c297-4a52-9bc8-0e931b27676e.png" alt="Cover Portfolio" style="width:75%">
 
 ## Built with 🛠️
 * React
