@@ -12,7 +12,7 @@ In this portfolio you'll find the projects I've been working on as a Frontend de
 * Git and Gulp
 
 ## Setup 🚀
-To run this project, install it locally using $ npm install and then $ npm start.
+To run this project, install it locally using $ **npm install** and then $ **npm start**.
 
 ## About me
 
