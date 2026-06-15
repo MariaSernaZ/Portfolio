@@ -12,6 +12,16 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+:focus-visible {
+  outline: 2px solid var(--colorCover-h2, #1e82da);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
 :root{
 /*Colores*/
   --colorCover-h1:#25478b;

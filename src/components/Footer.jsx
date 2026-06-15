@@ -25,8 +25,9 @@ const Footer = () => {
                 <li className="footerList_item">
                   <a
                     href="https://www.linkedin.com/in/maria-serna-zafra/"
-                    alt="Linkedin profile"
+                    aria-label="LinkedIn profile"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="rrss_link">
                     <i className="fab fa-linkedin fa-lg icon"></i>
                   </a>
@@ -34,8 +35,9 @@ const Footer = () => {
                 <li className="footerList_item">
                   <a
                     href="https://github.com/MariaSernaZ"
-                    alt="Github profile"
+                    aria-label="GitHub profile"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="rrss_link">
                     <i className="fab fa-github fa-lg icon"></i>
                   </a>
@@ -43,8 +45,7 @@ const Footer = () => {
                 <li className="footerList_item">
                   <a
                     href="mailto:maria.serna.zafra@gmail.com"
-                    alt="Email contact"
-                    target="_blank"
+                    aria-label="Send an email"
                     className="rrss_link">
                     <i className="fas fa-envelope-square fa-lg icon"></i>
                   </a>
@@ -61,7 +62,7 @@ const Footer = () => {
           </div>
           <div className="footer_copy">
             <p className="copy">
-              &copy; 2021 · {t("footer.copy")} María Serna Zafra ·
+              &copy; 2026 · {t("footer.copy")} María Serna Zafra ·
             </p>
           </div>
         </div>
