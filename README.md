@@ -9,10 +9,22 @@ In this portfolio you'll find the projects I've been working on as a Frontend De
 * React
 * JavaScript
 * HTML5, CSS3 and Sass
-* Git and Gulp
+* Git and Vite
 
 ## Setup 🚀
-To run this project, install it locally using $ **npm install** and, then, use $ **npm start**.
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then you can use the following commands:
+
+```bash
+npm run dev       # Start the development server (http://localhost:5173)
+npm run build     # Build for production (output in dist/)
+npm run preview   # Preview the production build locally
+```
 
 ## About me
 I'm a Frontend Developer based in Alicante, Spain.

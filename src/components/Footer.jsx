@@ -14,7 +14,7 @@ const Footer = () => {
               <ul className="talk_list">
                 <li>{t("footer.text2")}</li>
                 <li>
-                  <i class="fas fa-phone-alt icon_phone"></i>
+                  <i className="fas fa-phone-alt icon_phone"></i>
                 </li>
               </ul>
             </div>
@@ -28,7 +28,7 @@ const Footer = () => {
                     alt="Linkedin profile"
                     target="_blank"
                     className="rrss_link">
-                    <i class="fab fa-linkedin fa-lg icon"></i>
+                    <i className="fab fa-linkedin fa-lg icon"></i>
                   </a>
                 </li>
                 <li className="footerList_item">
@@ -37,7 +37,7 @@ const Footer = () => {
                     alt="Github profile"
                     target="_blank"
                     className="rrss_link">
-                    <i class="fab fa-github fa-lg icon"></i>
+                    <i className="fab fa-github fa-lg icon"></i>
                   </a>
                 </li>
                 <li className="footerList_item">
@@ -46,7 +46,7 @@ const Footer = () => {
                     alt="Email contact"
                     target="_blank"
                     className="rrss_link">
-                    <i class="fas fa-envelope-square fa-lg icon"></i>
+                    <i className="fas fa-envelope-square fa-lg icon"></i>
                   </a>
                 </li>
               </ul>
@@ -54,9 +54,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer_arrowCopy">
-          <div classname="footer_arrow">
+          <div className="footer_arrow">
             <a href="#header">
-              <i class="fas fa-arrow-alt-circle-up arrowIcon"></i>
+              <i className="fas fa-arrow-alt-circle-up arrowIcon"></i>
             </a>
           </div>
           <div className="footer_copy">

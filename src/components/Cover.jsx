@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./Nav.js";
+import Nav from "./Nav.jsx";
 import { useTranslation } from "react-i18next";
 
 const Cover = () => {

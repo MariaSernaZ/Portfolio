@@ -21,17 +21,17 @@ const Nav = () => {
           </div>
         </li>
         <li className="navItem">
-          <a classname="nav_link" href="#aboutMe">
+          <a className="nav_link" href="#aboutMe">
             {t("nav.about")}
           </a>
         </li>
         <li className="navItem">
-          <a classname="nav_link" href="#projects">
+          <a className="nav_link" href="#projects">
             {t("nav.projects")}
           </a>
         </li>
         <li className="navItem">
-          <a classname="nav_link" href="#contact">
+          <a className="nav_link" href="#contact">
             {t("nav.contact")}
           </a>
         </li>

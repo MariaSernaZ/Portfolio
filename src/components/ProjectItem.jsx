@@ -23,7 +23,7 @@ function ProjectItem(props) {
           alt={props.title}
           target="_blank"
           className="link">
-          <i class="fab fa-github fa-lg projectIcon"></i>
+          <i className="fab fa-github fa-lg projectIcon"></i>
         </a>
       </div>
     </article>

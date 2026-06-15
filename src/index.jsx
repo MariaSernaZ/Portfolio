@@ -1,8 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { HashRouter } from "react-router-dom";
+import { createRoot } from "react-dom/client";
 import App from "./components/App";
-import { I18nextProvider } from "react-i18next";
+import { I18nextProvider, initReactI18next } from "react-i18next";
 import i18next from "i18next";
 
 import global_es from "./languages/es/global.json";
@@ -20,8 +19,9 @@ import projectsData_en from "./service/en/projectsData.json";
 import footer_es from "./languages/es/footer.json";
 import footer_en from "./languages/en/footer.json";
 
-i18next.init({
+i18next.use(initReactI18next).init({
   interpolation: { escapeValue: false },
+  react: { useSuspense: false },
   lng: "en",
   resources: {
     es: {
@@ -41,13 +41,10 @@ i18next.init({
   },
 });
 
-ReactDOM.render(
+createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <HashRouter>
-      <I18nextProvider i18n={i18next}>
-        <App />
-      </I18nextProvider>
-    </HashRouter>
-  </React.StrictMode>,
-  document.getElementById("root")
+    <I18nextProvider i18n={i18next}>
+      <App />
+    </I18nextProvider>
+  </React.StrictMode>
 );

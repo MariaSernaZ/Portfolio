@@ -1,8 +1,8 @@
-@import "./componentScss/cover.scss";
-@import "./componentScss/nav.scss";
-@import "./componentScss/aboutMe.scss";
-@import "./componentScss/projects.scss";
-@import "./componentScss/footer.scss";
+@use "./componentScss/cover";
+@use "./componentScss/nav";
+@use "./componentScss/aboutMe";
+@use "./componentScss/projects";
+@use "./componentScss/footer";
 
 * {
   margin: 0;
