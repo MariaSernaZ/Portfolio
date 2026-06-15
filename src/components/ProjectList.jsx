@@ -1,13 +1,13 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import { useTranslation } from "react-i18next";
 
 function ProjectList(props) {
-  const [t] = useTranslation("projectsData");
   return (
     <ul className="projects_listContainer">
-      {props.data.map((project) => (
-        <li className="projects_listItem" key={project.id} id={project.id}>
+      {props.data
+        .filter((project) => !project.hidden)
+        .map((project) => (
+        <li className="projects_listWrapper" key={project.id} id={project.id}>
           <ProjectItem
             id={project.id}
             title={project.title}

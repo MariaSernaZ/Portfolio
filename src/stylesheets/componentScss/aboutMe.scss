@@ -120,6 +120,7 @@
 .tech_icon{
     width:35px;
     height: 35px;
+    filter: brightness(0);
     @media (min-width: 768px) {
         width:30px;
         height:30px;
