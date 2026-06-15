@@ -10,11 +10,15 @@ const Nav = () => {
           <div>
             <button
               className="button button_es"
+              aria-label="Cambiar idioma a español"
+              aria-pressed={i18n.language === "es"}
               onClick={() => i18n.changeLanguage("es")}>
               ES
             </button>
             <button
               className="button"
+              aria-label="Switch language to English"
+              aria-pressed={i18n.language === "en"}
               onClick={() => i18n.changeLanguage("en")}>
               EN
             </button>
